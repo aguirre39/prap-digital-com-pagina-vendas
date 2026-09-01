@@ -1,0 +1,2360 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- OTIMIZAÇÃO DE SEGURANÇA E CSP FORTIFICADA -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://unpkg.com https://www.googletagmanager.com https://www.clarity.ms https://scripts.clarity.ms https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://prapdigital.com.br https://placehold.co https://www.googletagmanager.com https://c.clarity.ms https://c.bing.com https://saberempratica.site; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://www.google-analytics.com https://*.clarity.ms https://cloudflareinsights.com; frame-src 'self' https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;">
+
+    <!-- URL Canônica Oficial para SEO Técnico -->
+    <link rel="canonical" href="https://prapdigital.com.br/informatica-sem-medo/" />
+
+    <title>Informática Sem Medo — Guia Prático em PDF para Usar o Computador do Zero | PRAP Digital</title>
+
+    <!-- Meta Tags Otimizadas para Conversão, Google Ads, SEO e CTR -->
+    <meta name="description"
+        content="Aprenda a usar o computador com total segurança e no seu próprio ritmo. Guia didático em PDF com explicações visuais, passo a passo descomplicado e exercícios práticos criado pelo Prof. Paulo Roberto Aguirre Pinheiro (PRAP Digital)." />
+    <meta name="keywords"
+        content="informatica sem medo, curso de informatica basica em pdf, aprender computador do zero, informatica para iniciantes e idosos, guia visual de informatica, professor paulo pinheiro, prap digital" />
+    <meta name="author" content="Paulo Roberto Aguirre Pinheiro - PRAP Digital" />
+
+    <!-- Controle de Indexação e Snippets para Motores de Busca e IAs Generativas (GEO/AEO/AIO) -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="theme-color" content="#0a2540" />
+
+    <!-- Sinais Geográficos e Regionais Estratégicos -->
+    <meta name="geo.region" content="BR-RS" />
+    <meta name="geo.placename" content="Porto Alegre" />
+    <meta name="geo.position" content="-30.0346;-51.2177" />
+    <meta name="ICBM" content="-30.0346, -51.2177" />
+
+    <!-- Open Graph / Redes Sociais / WhatsApp -->
+    <meta property="og:site_name" content="PRAP Digital - Educação & TI" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Informática Sem Medo: Guia Visual em PDF para Dominar o Computador do Zero" />
+    <meta property="og:description"
+        content="Aprenda os segredos do computador, mouse, teclado, Windows, internet e segurança com o Prof. Paulo Roberto Aguirre Pinheiro. Sem termos difíceis e no seu ritmo." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://prapdigital.com.br/informatica-sem-medo/" />
+    <meta property="og:image"
+        content="https://prapdigital.com.br/imagem/professor-paulo-pinheiro-informatica-para-idosos-porto-alegre.webp" />
+    <meta property="og:image:alt"
+        content="Professor Paulo Roberto Aguirre Pinheiro apresentando o método Informática Sem Medo da PRAP Digital" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Informática Sem Medo — Guia Prático em PDF para Usar o Computador do Zero" />
+    <meta name="twitter:description"
+        content="Aprenda informática básica de forma simples, visual e prática com o Prof. Paulo Roberto Aguirre Pinheiro da PRAP Digital." />
+    <meta name="twitter:image"
+        content="https://prapdigital.com.br/imagem/professor-paulo-pinheiro-informatica-para-idosos-porto-alegre.webp" />
+
+    <!-- Favicon Oficial -->
+    <link rel="icon" type="image/svg+xml" href="../imagem/favicon.svg" />
+    <link rel="alternate icon" type="image/png" href="../imagem/favicon-48x48.png" />
+
+    <!-- Preconnect e Google Fonts (Outfit & Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="preload" as="image" href="../imagem/professor-paulo-pinheiro-informatica-para-idosos-porto-alegre.webp"
+        type="image/webp" fetchpriority="high" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandDark: '#071626',
+                        brandNavy: '#0a2540',
+                        brandBlue: '#0284c7',
+                        brandLightBlue: '#e0f2fe',
+                        brandAccent: '#6366f1',
+                        ctaGreen: '#16a34a',
+                        ctaGreenHover: '#15803d',
+                        ctaGreenGlow: '#22c55e',
+                        goldAmber: '#f59e0b',
+                        goldLight: '#fef3c7',
+                        bgSlate: '#f8fafc',
+                        cardSurface: '#ffffff',
+                        borderSubtle: '#e2e8f0',
+                        textPrimary: '#0f172a',
+                        textMuted: '#475569',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'premium': '0 20px 40px -15px rgba(10, 37, 64, 0.08), 0 0 1px 1px rgba(10, 37, 64, 0.05)',
+                        'glow-cta': '0 10px 30px -5px rgba(34, 197, 94, 0.5)',
+                        'glow-blue': '0 10px 30px -5px rgba(2, 132, 199, 0.4)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Estilos Customizados de Alta Conversão, Diferenciação Visual, Marquee e Performance -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #0f172a;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .font-heading {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .text-balance {
+            text-wrap: balance;
+        }
+
+        /* Gradientes e Malhas de Fundo Exclusivas PRAP Digital */
+        .hero-pattern {
+            background-color: #ffffff;
+            background-image: radial-gradient(at 0% 0%, rgba(2, 132, 199, 0.08) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(99, 102, 241, 0.06) 0px, transparent 50%),
+                linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+        }
+
+        .prap-grid-section {
+            background-color: #f8fafc;
+            background-image: radial-gradient(rgba(2, 132, 199, 0.06) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+
+        .dark-navy-mesh {
+            background: radial-gradient(circle at 100% 0%, rgba(2, 132, 199, 0.2) 0%, transparent 40%),
+                radial-gradient(circle at 0% 100%, rgba(99, 102, 241, 0.15) 0%, transparent 40%),
+                linear-gradient(180deg, #071626 0%, #0a2540 100%);
+        }
+
+        .cta-btn-gradient {
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 60%, #15803d 100%);
+        }
+
+        .cta-btn-gradient:hover {
+            background: linear-gradient(135deg, #16a34a 0%, #15803d 60%, #14532d 100%);
+        }
+
+        /* Efeitos de Interação Premium */
+        .prap-card-hover {
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .prap-card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 35px -10px rgba(10, 37, 64, 0.12), 0 0 0 1px rgba(2, 132, 199, 0.3);
+        }
+
+        .btn-pulse {
+            animation: pulse-glow 2.4s infinite;
+        }
+
+        @keyframes pulse-glow {
+            0% {
+                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.65);
+            }
+
+            70% {
+                box-shadow: 0 0 0 18px rgba(34, 197, 94, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+            }
+        }
+
+        .float-subtle {
+            animation: floating 4.5s ease-in-out infinite;
+        }
+
+        @keyframes floating {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-7px);
+            }
+        }
+
+        /* Acordeão de FAQ Estilizado */
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+
+        details[open] summary .faq-chevron {
+            transform: rotate(180deg);
+        }
+
+        /* Mobile Sticky Bottom Bar */
+        .mobile-dock {
+            transform: translateY(150%);
+            transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .mobile-dock.active {
+            transform: translateY(0);
+        }
+
+        /* ========================================================
+           CARROSSEL INFINITO / MARQUEE DE ALTA PERFORMANCE
+           ======================================================== */
+        .marquee-viewport {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            padding: 1.25rem 0;
+            mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
+        }
+
+        .marquee-track {
+            display: flex;
+            width: max-content;
+            animation: marquee-left 45s linear infinite;
+        }
+
+        .marquee-track-reverse {
+            display: flex;
+            width: max-content;
+            animation: marquee-right 45s linear infinite;
+        }
+
+        .marquee-track:hover,
+        .marquee-track-reverse:hover {
+            animation-play-state: paused;
+        }
+
+        .marquee-group {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            flex-shrink: 0;
+            padding-right: 1.5rem;
+        }
+
+        @keyframes marquee-left {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes marquee-right {
+            0% {
+                transform: translateX(-50%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        /* Card do Carrossel com Estilo de Folha A4 Nítida */
+        .pdf-page-card {
+            width: 280px;
+            height: 400px;
+            background: #ffffff;
+            border-radius: 1.25rem;
+            border: 2px solid #0284c7;
+            box-shadow: 0 15px 30px -10px rgba(10, 37, 64, 0.15);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            flex-shrink: 0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        @media (min-width: 768px) {
+            .pdf-page-card {
+                width: 340px;
+                height: 480px;
+            }
+        }
+
+        .pdf-page-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 40px -10px rgba(2, 132, 199, 0.3);
+        }
+
+        .pdf-page-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+        }
+    </style>
+
+    <!-- Schema Markup JSON-LD (@graph com SEO, AEO, GEO, HowTo e Product) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://prapdigital.com.br/informatica-sem-medo/#product",
+          "name": "Informática Sem Medo: Guia Prático para Aprender a Usar o Computador do Zero",
+          "description": "Guia visual e didático em PDF desenvolvido pelo Prof. Paulo Roberto Aguirre Pinheiro (PRAP Digital) para adultos, idosos e iniciantes aprenderem a usar o computador com confiança, sem pressa e sem medo de errar.",
+          "image": "https://prapdigital.com.br/imagem/professor-paulo-pinheiro-informatica-para-idosos-porto-alegre.webp",
+          "url": "https://prapdigital.com.br/informatica-sem-medo/",
+          "category": "EducationalCourse",
+          "sku": "PRAP-ISM-PDF",
+          "brand": {
+            "@type": "Brand",
+            "name": "Informática Sem Medo — PRAP Digital"
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "lowPrice": "19.90",
+            "highPrice": "27.90",
+            "priceCurrency": "BRL",
+            "offerCount": "2",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2027-12-31",
+            "seller": {
+              "@type": "Person",
+              "name": "Paulo Roberto Aguirre Pinheiro"
+            }
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": "2054"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Conceição Soares Beltrão" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+              "reviewBody": "Aprendi muito com o professor Paulo Roberto. O guia Informática Sem Medo me deu a segurança que eu precisava para usar o computador no meu dia a dia."
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Tiago Alexandre Arce" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+              "reviewBody": "Excelente guia! Didático, direto ao ponto e com linguagem muito acessível para iniciantes."
+            }
+          ]
+        },
+        {
+          "@type": "Course",
+          "@id": "https://prapdigital.com.br/informatica-sem-medo/#course",
+          "name": "Informática Sem Medo — Guia de Informática Básica em PDF para Iniciantes",
+          "description": "Curso e material didático em PDF que ensina a usar mouse, teclado, Windows, internet, e-mails, pastas, WhatsApp no computador e prevenção contra golpes virtuais.",
+          "provider": {
+            "@type": "Organization",
+            "name": "PRAP Digital - Educação & TI",
+            "url": "https://prapdigital.com.br"
+          },
+          "educationalCredentialAwarded": "Certificado de Participação em Informática Básica",
+          "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "Material Didático em PDF e Prática Guiada",
+            "instructor": {
+              "@type": "Person",
+              "name": "Paulo Roberto Aguirre Pinheiro"
+            }
+          }
+        },
+        {
+          "@type": "HowTo",
+          "@id": "https://prapdigital.com.br/informatica-sem-medo/#howto",
+          "name": "Como Aprender a Usar o Computador do Zero com Segurança",
+          "description": "Passo a passo visual e metodológico criado pelo Prof. Paulo Roberto Aguirre Pinheiro para destravar o uso do computador no cotidiano.",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "name": "Passo 1: Entenda as partes e como ligar",
+              "text": "Conheça o monitor, gabinete, teclado, mouse e a sequência segura para ligar e desligar o computador sem danificar o sistema."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "Passo 2: Domine o mouse e teclado",
+              "text": "Pratique a coordenação motora com o clique simples, duplo clique, botão direito e atalhos essenciais de digitação."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "Passo 3: Navegue na Internet e proteja seus dados",
+              "text": "Pesquise no Google, use o e-mail, conecte o WhatsApp Web e aplique as regras de segurança contra golpes e fraudes online."
+            }
+          ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://prapdigital.com.br/#author",
+          "name": "Paulo Roberto Aguirre Pinheiro",
+          "jobTitle": "Professor de Informática e Especialista em TI",
+          "description": "Fundador da PRAP Digital, graduado em Sistemas para Internet pelo IFRS e Técnico em Informática pelas Faculdades QI. Criador do método Informática Sem Medo.",
+          "image": "https://prapdigital.com.br/imagem/professor-paulo-pinheiro-informatica-para-idosos-porto-alegre.webp",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "PRAP Digital - Educação & TI",
+            "url": "https://prapdigital.com.br"
+          },
+          "knowsAbout": [
+            "Informática Básica para Iniciantes",
+            "Educação Digital para Terceira Idade",
+            "Segurança na Internet e Prevenção a Fraudes",
+            "Manutenção de Computadores e Hardware"
+          ],
+          "sameAs": [
+            "https://www.linkedin.com/in/paulo-roberto-aguirre-pinheiro-911a7aa3/",
+            "https://prapdigital.com.br"
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://prapdigital.com.br/informatica-sem-medo/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "O guia Informática Sem Medo é físico ou digital?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O material é 100% digital em formato PDF de alta resolução. Você recebe acesso imediato no seu WhatsApp e E-mail após a confirmação do pagamento, podendo ler no celular, computador ou imprimir quantas páginas desejar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Esse material serve para quem nunca mexeu em computador?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim! O método do Prof. Paulo Roberto foi desenvolvido especialmente para iniciantes absolutos. Ensinamos desde como segurar o mouse até a navegação segura na internet, sempre com letras grandes e figuras explicativas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Adultos e idosos conseguem aprender sozinhos com o guia?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim! A didática foi adaptada com linguagem simples e sem termos técnicos difíceis, respeitando o ritmo de aprendizado de cada pessoa."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Professores e instrutores podem usar esse material em aula?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Com certeza! O Kit Completo VIP acompanha o Plano Pronto de 30 Aulas e cadernos de exercícios ideais para turmas ou aulas particulares."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Como funciona a garantia incondicional de 30 dias?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Você tem 30 dias para testar o material com calma. Se achar que o conteúdo não atendeu suas expectativas, basta enviar uma mensagem no WhatsApp da PRAP Digital que devolveremos 100% do valor pago imediatamente."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Início",
+              "item": "https://prapdigital.com.br/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Informática Sem Medo",
+              "item": "https://prapdigital.com.br/informatica-sem-medo/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- Google Analytics 4 & Microsoft Clarity Tracking -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-DVZK4YTJ4R');
+
+        function trackConversion(eventName, eventParams) {
+            try {
+                if (typeof gtag === 'function') {
+                    gtag('event', eventName, eventParams || {});
+                }
+                if (typeof window.clarity === 'function') {
+                    window.clarity('event', eventName);
+                }
+            } catch (err) {
+                console.warn('Rastreamento de evento:', err);
+            }
+        }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVZK4YTJ4R"></script>
+
+</head>
+
+<body class="bg-cardSurface text-textPrimary antialiased selection:bg-brandBlue selection:text-white">
+
+    <!-- 1. BARRA DE DESTAQUE SUPERIOR -->
+    <aside aria-label="Aviso de Oferta Promocional"
+        class="bg-brandDark text-slate-100 py-2 px-3 border-b border-slate-800 text-xs font-semibold">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+            <div class="flex items-center gap-2 mx-auto sm:mx-0">
+                <span
+                    class="bg-amber-400 text-slate-950 font-black px-2 py-0.5 rounded text-[14px] uppercase tracking-wider">
+                    ⚡ OFERTA VIP 70% OFF
+                </span>
+                <span class="text-slate-300">Acesso Digital Completo em PDF + <strong>6 Bônus Exclusivos</strong> para
+                    download imediato.</span>
+            </div>
+            <div class="hidden sm:flex items-center gap-3 text-slate-400 text-[14px]">
+                <span>🔒 Compra 100% Protegida</span>
+                <span>•</span>
+                <span>🛡️ Garantia de 30 Dias</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- 2. CABEÇALHO INSTITUCIONAL PRAP DIGITAL -->
+    <header class="bg-brandNavy/95 text-white sticky top-0 z-50 backdrop-blur-md border-b border-slate-800/80 shadow-md">
+        <div class="max-w-[1400px] mx-auto px-3 md:px-6 h-16 md:h-20 flex items-center justify-between gap-3 md:gap-5">
+
+            <!-- Identidade da Marca PRAP Digital -->
+            <a href="https://prapdigital.com.br/" class="flex items-center gap-2.5 md:gap-3 group shrink-0"
+                title="PRAP Digital - Educação & Tecnologia">
+                <img src="../imagem/favicon.svg" alt="PRAP Digital" class="w-9 h-9 md:w-11 md:h-11 group-hover:scale-105 transition-transform drop-shadow-md">
+                <div class="flex flex-col justify-center">
+                    <div class="text-xl md:text-[22px] font-black leading-none tracking-tight text-white uppercase font-heading">
+                        PRAP<span class="text-sky-400">Digital</span>
+                    </div>
+                    <span class="text-[10px] md:text-xs text-slate-300 font-bold tracking-widest uppercase mt-1 block">
+                        Educação & TI
+                    </span>
+                </div>
+            </a>
+
+            <!-- Navegação Desktop (Oculta em telas menores para não quebrar o layout) -->
+            <nav class="hidden xl:flex items-center gap-5 2xl:gap-7 text-xs font-bold uppercase tracking-wider text-slate-200">
+                <a href="#para-quem" class="hover:text-white transition-colors">Para Quem É</a>
+                <a href="#transformacao" class="text-emerald-400 hover:text-emerald-300 transition-colors">Antes e Depois</a>
+                <a href="#paginas-pdf" class="text-amber-400 hover:text-amber-300 transition-colors">Ver o Material</a>
+                <a href="#conteudo" class="hover:text-white transition-colors">O Que Vem Dentro</a>
+                <a href="#como-recebe" class="hover:text-white transition-colors">Como Recebe</a>
+                <a href="#autor" class="hover:text-white transition-colors">O Autor</a>
+                <a href="#faq" class="hover:text-white transition-colors">Dúvidas</a>
+            </nav>
+
+            <!-- Ações Rápidas do Cabeçalho -->
+            <div class="flex items-center gap-2 md:gap-3 shrink-0">
+                <a href="https://wa.me/5551933003584?text=Ol%C3%A1%2C%20professor%20Paulo%21%20Gostaria%20de%20tirar%20d%C3%BAvidas%20sobre%20o%20guia%20Inform%C3%A1tica%20Sem%20Medo."
+                    target="_blank" rel="noopener noreferrer"
+                    onclick="trackConversion('click_whatsapp_header', { location: 'header' });"
+                    class="hidden lg:flex items-center gap-2 bg-slate-800/80 hover:bg-slate-700 text-white px-3.5 py-2 md:py-2.5 rounded-xl text-xs md:text-sm font-bold border border-slate-700 transition-colors whitespace-nowrap">
+                    <span class="text-emerald-400 text-sm md:text-base leading-none">💬</span> 
+                    (51) 93300-3584
+                </a>
+
+                <a href="#oferta" onclick="trackConversion('click_cta_header', { location: 'header' });"
+                    class="cta-btn-gradient text-white px-4 py-2 md:px-6 md:py-2.5 rounded-xl text-xs md:text-sm font-black uppercase tracking-wider shadow-md hover:scale-105 transition-transform whitespace-nowrap">
+                    BAIXAR O GUIA
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- 3. HERO SECTION EXCLUSIVA: AUTORIDADE, PROVA SOCIAL E OFERTA DIRETA -->
+    <section
+        class="hero-pattern px-4 pt-8 pb-16 md:pt-14 md:pb-24 border-b border-borderSubtle relative overflow-hidden">
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+
+            <!-- Tag de Destaque Superior -->
+            <div
+                class="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-sky-50 border border-sky-200 text-brandNavy font-extrabold text-[14px] sm:text-xs md:text-sm tracking-wider uppercase mb-4 shadow-sm">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                +500 Recursos de Informática Básica para Aprender ou Ensinar do Zero
+            </div>
+
+            <!-- H1 Otimizado para SEO, AEO, Conversão e Google Ads -->
+            <h1
+                class="text-3xl sm:text-5xl md:text-6xl font-black leading-[1.12] tracking-tight text-brandNavy text-balance mx-auto max-w-4xl font-heading">
+                Guia de Informática Básica em PDF para Iniciantes
+            </h1>
+
+            <!-- Subtítulo e Promessa Principal -->
+            <h2
+                class="mt-3 text-lg sm:text-2xl md:text-3xl font-extrabold text-brandBlue max-w-3xl mx-auto leading-snug">
+                Guia prático para aprender a usar o computador do zero
+            </h2>
+
+            <p
+                class="mt-4 text-sm sm:text-base md:text-lg text-textMuted max-w-2xl mx-auto leading-relaxed font-medium">
+                Um kit visual e prático em PDF, com explicações simples, letras grandes e páginas prontas para imprimir,
+                criado pelo <strong>Prof. Paulo Roberto Aguirre Pinheiro</strong> (PRAP Digital) para adultos, idosos e
+                iniciantes aprenderem sem complicação.
+            </p>
+
+            <!-- Vitrine Visual Central: Mockup 3D do Produto em Destaque Absoluto -->
+            <div class="mt-6 mb-8 max-w-3xl md:max-w-4xl mx-auto px-0 sm:px-2 relative">
+                <div class="relative flex justify-center">
+                    <img src="../imagem/mockup-kit-informatica-sem-medo.png"
+                        alt="Kit Completo em PDF — Informática Sem Medo: Guia Visual de Informática Básica com Prof. Paulo Pinheiro"
+                        width="680" height="437" fetchpriority="high"
+                        class="float-subtle w-full max-w-[660px] md:max-w-[760px] h-auto drop-shadow-2xl object-contain scale-100 sm:scale-105" />
+                </div>
+
+                <!-- 4 Destaques Rápidos em Pílulas (Semântica UL/LI para IAs e SEO) -->
+                <ul
+                    class="mt-6 flex flex-wrap justify-center items-center gap-2 sm:gap-3 text-xs md:text-sm font-bold text-slate-800">
+                    <li
+                        class="bg-white/90 border border-slate-200 px-3 py-1.5 rounded-full shadow-sm flex items-center gap-1.5">
+                        <span class="text-emerald-600">✓</span> +500 Páginas no Kit
+                    </li>
+                    <li
+                        class="bg-white/90 border border-slate-200 px-3 py-1.5 rounded-full shadow-sm flex items-center gap-1.5">
+                        <span class="text-emerald-600">✓</span> Pronto para Imprimir
+                    </li>
+                    <li
+                        class="bg-white/90 border border-slate-200 px-3 py-1.5 rounded-full shadow-sm flex items-center gap-1.5">
+                        <span class="text-emerald-600">✓</span> Sem Termos Difíceis
+                    </li>
+                    <li
+                        class="bg-white/90 border border-slate-200 px-3 py-1.5 rounded-full shadow-sm flex items-center gap-1.5">
+                        <span class="text-emerald-600">✓</span> Envio Imediato no WhatsApp
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Botão de Ação Imediata (CRO Master) -->
+            <div class="max-w-xl mx-auto">
+                <a href="#oferta" onclick="trackConversion('click_cta_hero', { location: 'hero_main' });"
+                    class="btn-pulse cta-btn-gradient inline-flex items-center justify-center rounded-2xl text-white px-8 py-5 md:px-12 md:py-6 font-black text-lg md:text-2xl shadow-glow-cta w-full uppercase tracking-wider transition-all hover:scale-[1.02] font-heading">
+                    QUERO GARANTIR MEU KIT AGORA <span class="ml-3 text-2xl">→</span>
+                </a>
+
+                <div
+                    class="mt-3.5 flex flex-wrap items-center justify-center gap-3 text-xs md:text-sm font-semibold text-slate-600">
+                    <span class="flex items-center gap-1"><span class="text-emerald-600">🔒</span> Pagamento 100%
+                        Seguro</span>
+                    <span>•</span>
+                    <span class="flex items-center gap-1"><span class="text-sky-600">⚡</span> Envio Imediato no WhatsApp
+                        e E-mail</span>
+                    <span>•</span>
+                    <span class="flex items-center gap-1"><span class="text-amber-500">🛡️</span> 30 Dias de
+                        Garantia</span>
+                </div>
+
+                <div
+                    class="mt-5 inline-flex items-center gap-2 bg-amber-50 border border-amber-200/80 px-4 py-1.5 rounded-full text-xs md:text-sm font-extrabold text-amber-900 shadow-sm">
+                    <span class="text-amber-500 text-base">★★★★★</span>
+                    <span>Avaliação 4.9 / 5.0 · Mais de 2.054 alunos e leitores capacitados</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4. SEÇÃO: PARA QUEM É O MÉTODO (DORES REAIS E IDENTIFICAÇÃO) -->
+    <section id="para-quem" class="prap-grid-section px-4 py-16 md:py-24 border-b border-borderSubtle">
+        <div class="max-w-6xl mx-auto">
+
+            <div class="text-center mb-14">
+                <span
+                    class="inline-block bg-sky-100 text-sky-900 border border-sky-200 font-extrabold text-xs uppercase px-4 py-1.5 rounded-full tracking-widest mb-3">
+                    IDENTIFICAÇÃO & PÚBLICO
+                </span>
+                <h2 class="text-3xl md:text-5xl font-black tracking-tight text-brandNavy font-heading">
+                    Esse Material é Para Você Que:
+                </h2>
+                <p class="mt-3 text-textMuted text-base md:text-lg max-w-2xl mx-auto font-medium">
+                    Se você já se sentiu travado em frente à tela do computador, o <strong>Informática Sem Medo</strong>
+                    foi desenhado sob medida para a sua rotina.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Card 1 -->
+                <article
+                    class="bg-white rounded-3xl border border-slate-200 p-7 shadow-sm prap-card-hover flex flex-col justify-between">
+                    <div>
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-sky-50 border border-sky-100 flex items-center justify-center text-2xl mb-4 text-brandBlue">
+                            💻
+                        </div>
+                        <h3 class="font-black text-lg text-brandNavy mb-2 font-heading">
+                            Quer aprender computador do zero
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            E precisa de uma explicação simples, visual e passo a passo para começar sem medo e sem se
+                            sentir perdido com botões desconhecidos.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-100 text-[14px] font-bold text-brandBlue">
+                        ✓ Ideal para iniciantes do zero
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article
+                    class="bg-white rounded-3xl border border-slate-200 p-7 shadow-sm prap-card-hover flex flex-col justify-between">
+                    <div>
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-2xl mb-4 text-emerald-600">
+                            🖱️
+                        </div>
+                        <h3 class="font-black text-lg text-brandNavy mb-2 font-heading">
+                            Tem medo de clicar errado
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            E quer ganhar mais confiança e firmeza para usar o mouse, teclado, criar pastas, salvar
+                            documentos e navegar na internet com tranquilidade.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-100 text-[14px] font-bold text-emerald-600">
+                        ✓ Elimine a insegurança ao clicar
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article
+                    class="bg-white rounded-3xl border border-slate-200 p-7 shadow-sm prap-card-hover flex flex-col justify-between">
+                    <div>
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-100 flex items-center justify-center text-2xl mb-4 text-amber-600">
+                            📖
+                        </div>
+                        <h3 class="font-black text-lg text-brandNavy mb-2 font-heading">
+                            É adulto ou idoso iniciante
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            E procura um material com letras grandes, imagens nítidas, linguagem paciente e fácil de
+                            consultar e revisar no seu próprio ritmo diário.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-100 text-[14px] font-bold text-amber-600">
+                        ✓ Formato acessível para terceira idade
+                    </div>
+                </article>
+
+                <!-- Card 4 -->
+                <article
+                    class="bg-white rounded-3xl border border-slate-200 p-7 shadow-sm prap-card-hover flex flex-col justify-between">
+                    <div>
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-indigo-50 border border-indigo-100 flex items-center justify-center text-2xl mb-4 text-brandAccent">
+                            👨‍🏫
+                        </div>
+                        <h3 class="font-black text-lg text-brandNavy mb-2 font-heading">
+                            Ensina informática básica
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            E precisa de um plano estruturado de aulas, resumos visuais e folhas de atividades práticas
+                            prontas para aplicar com alunos iniciantes.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-100 text-[14px] font-bold text-brandAccent">
+                        ✓ Perfeito para instrutores e professores
+                    </div>
+                </article>
+
+                <!-- Card 5 -->
+                <article
+                    class="bg-white rounded-3xl border border-slate-200 p-7 shadow-sm prap-card-hover flex flex-col justify-between">
+                    <div>
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-purple-50 border border-purple-100 flex items-center justify-center text-2xl mb-4 text-purple-600">
+                            ❤️
+                        </div>
+                        <h3 class="font-black text-lg text-brandNavy mb-2 font-heading">
+                            Quer ajudar alguém da família
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            E deseja um recurso pedagógico pronto para ensinar pais, mães ou avós com amor, didática
+                            estruturada e sem perder a paciência.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-100 text-[14px] font-bold text-purple-600">
+                        ✓ Presenteie seus familiares com autonomia
+                    </div>
+                </article>
+
+                <!-- Card 6 -->
+                <article
+                    class="bg-white rounded-3xl border border-slate-200 p-7 shadow-sm prap-card-hover flex flex-col justify-between">
+                    <div>
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-rose-50 border border-rose-100 flex items-center justify-center text-2xl mb-4 text-rose-600">
+                            🖨️
+                        </div>
+                        <h3 class="font-black text-lg text-brandNavy mb-2 font-heading">
+                            Precisa de material para imprimir
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            E quer apostilas formatadas em folha A4 para ler na mesa, fazer anotações à caneta, riscar
+                            exercícios e consultar a qualquer momento.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-100 text-[14px] font-bold text-rose-600">
+                        ✓ 100% diagramado para impressão A4
+                    </div>
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5. SEÇÃO AUTORAL: A TRANSFORMAÇÃO REAL (ANTES E DEPOIS DO MÉTODO PRAP) -->
+    <section id="transformacao" class="px-4 py-16 md:py-24 bg-white border-b border-borderSubtle">
+        <div class="max-w-5xl mx-auto">
+
+            <div class="text-center mb-14">
+                <span
+                    class="inline-block bg-emerald-100 text-emerald-800 border border-emerald-200 font-extrabold text-xs uppercase px-4 py-1.5 rounded-full tracking-widest mb-3">
+                    AUTONOMIA E SEGURANÇA
+                </span>
+                <h2 class="text-3xl md:text-5xl font-black tracking-tight text-brandNavy font-heading">
+                    Com a Didática Certa, Usar o Computador Fica Simples
+                </h2>
+                <p class="mt-3 text-textMuted max-w-2xl mx-auto text-base md:text-lg font-medium">
+                    Compare o contraste entre tentar adivinhar sozinho e a liberdade de seguir um método visual
+                    estruturado:
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 items-stretch">
+
+                <!-- Coluna 1: Sem Orientação / Antes -->
+                <div
+                    class="bg-slate-50 border-2 border-slate-200 rounded-3xl p-7 md:p-8 flex flex-col justify-between shadow-sm prap-card-hover">
+                    <div>
+                        <div class="flex items-center gap-3 pb-4 mb-6 border-b border-slate-200">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-red-100 text-red-600 flex items-center justify-center font-black text-lg shrink-0">
+                                ✕
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-black text-slate-800 font-heading uppercase tracking-wide">Sem
+                                    Orientação Prática</h3>
+                                <p class="text-xs text-slate-500 font-medium">A frustração da insegurança e do medo</p>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-4 text-sm font-semibold text-slate-700">
+                            <li class="flex items-start gap-3">
+                                <span class="text-red-500 font-black text-base shrink-0">✕</span>
+                                <span>Insegurança constante e receio de clicar errado ou estragar o computador</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-red-500 font-black text-base shrink-0">✕</span>
+                                <span>Dificuldade para controlar o mouse, dar duplo clique e usar o teclado com
+                                    agilidade</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-red-500 font-black text-base shrink-0">✕</span>
+                                <span>Arquivos, boletos e fotos espalhados sem saber onde foram salvos</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-red-500 font-black text-base shrink-0">✕</span>
+                                <span>Constrangimento de precisar pedir favores a parentes sem paciência</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-red-500 font-black text-base shrink-0">✕</span>
+                                <span>Vídeos e explicações da internet cheios de palavras técnicas complicadas</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-red-500 font-black text-base shrink-0">✕</span>
+                                <span>Sensação de dependência para tarefas simples do dia a dia</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Coluna 2: Com o Método PRAP Sem Medo / Depois -->
+                <div
+                    class="bg-gradient-to-b from-white to-emerald-50/50 border-2 border-emerald-500 rounded-3xl p-7 md:p-8 flex flex-col justify-between shadow-lg prap-card-hover relative">
+
+                    <div
+                        class="absolute -top-3.5 right-6 bg-emerald-600 text-white font-black text-[14px] uppercase px-3.5 py-1 rounded-full shadow-sm tracking-wider">
+                        TRANSFORMAÇÃO PRAP
+                    </div>
+
+                    <div>
+                        <div class="flex items-center gap-3 pb-4 mb-6 border-b border-emerald-200">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-black text-lg shrink-0">
+                                ✓
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-black text-brandNavy font-heading uppercase tracking-wide">Com o
+                                    Informática Sem Medo</h3>
+                                <p class="text-xs text-emerald-700 font-semibold">Liberdade, clareza e domínio passo a
+                                    passo</p>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-4 text-sm font-bold text-slate-900">
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-600 font-black text-base shrink-0">✓</span>
+                                <span>Firmeza absoluta e segurança ao ligar, clicar e navegar no computador</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-600 font-black text-base shrink-0">✓</span>
+                                <span>Domínio suave do mouse e teclado com exercícios práticos de digitação</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-600 font-black text-base shrink-0">✓</span>
+                                <span>Organização impecável de pastas, documentos, receitas, boletos e fotos</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-600 font-black text-base shrink-0">✓</span>
+                                <span>Treinos práticos guiados para fixar o aprendizado no seu próprio ritmo</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-600 font-black text-base shrink-0">✓</span>
+                                <span>Ilustrações didáticas com setas mostrando exatamente onde clicar</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-600 font-black text-base shrink-0">✓</span>
+                                <span>Total independência e tranquilidade para resolver suas tarefas diárias</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Botão de Ação Direta -->
+            <div class="mt-12 text-center">
+                <a href="#oferta" onclick="trackConversion('click_cta_transformacao', { location: 'antes_depois' });"
+                    class="btn-pulse cta-btn-gradient inline-flex items-center justify-center rounded-2xl text-white px-10 py-4 md:py-5 font-black text-base md:text-xl shadow-glow-cta uppercase tracking-wider hover:scale-105 transition-transform font-heading">
+                    QUERO GARANTIR MEU KIT AGORA →
+                </a>
+                <p class="mt-2.5 text-xs text-slate-500 font-bold">Acesso imediato no WhatsApp e E-mail · 30 Dias de
+                    Garantia</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 6. NOVO CARROSSEL 1: PÁGINAS VISUAIS DO MATERIAL DIDÁTICO PRINCIPAL (MARQUEE INFINITO) -->
+    <section id="paginas-pdf" class="py-16 md:py-24 bg-slate-900 text-white overflow-hidden border-y border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 text-center mb-10">
+            <span
+                class="inline-block bg-sky-500/20 text-sky-300 border border-sky-400/30 font-black text-xs uppercase px-4 py-1.5 rounded-full tracking-widest mb-3">
+                PRÉVIA DO CONTEÚDO EM PDF
+            </span>
+            <h2 class="text-3xl md:text-5xl font-black tracking-tight text-white font-heading">
+                Veja Como Aprender Informática Fica Fácil com Explicações Visuais
+            </h2>
+            <p class="mt-3 text-slate-300 max-w-2xl mx-auto text-sm md:text-base font-medium">
+                Páginas simples, coloridas e organizadas para entender o computador passo a passo, sem termos difíceis e
+                sem medo de errar.
+            </p>
+        </div>
+
+        <!-- Marquee Infinito de Páginas Visuais -->
+        <div class="marquee-viewport">
+            <div class="marquee-track">
+
+                <!-- Grupo 1 -->
+                <div class="marquee-group">
+
+                    <!-- Card Página 1 -->
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-01-o-que-e-computador.webp"
+                            alt="Página 1 — O que é um computador e suas partes" loading="lazy" width="340" height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+01%3A+O+Que+%C3%A9+um+Computador%3F';" />
+                    </div>
+
+                    <!-- Card Página 2 -->
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-02-tipos-computadores.webp"
+                            alt="Página 2 — Tipos de computadores e notebooks" loading="lazy" width="340" height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+02%3A+Tipos+de+Computadores';" />
+                    </div>
+
+                    <!-- Card Página 3 -->
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-03-ligar-desligar.webp"
+                            alt="Página 3 — Ligar e desligar corretamente sem erro" loading="lazy" width="340"
+                            height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+03%3A+Ligar+e+Desligar';" />
+                    </div>
+
+                    <!-- Card Página 4 -->
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-04-mouse-e-cliques.webp"
+                            alt="Página 4 — Cliques, duplo clique e botão direito do mouse" loading="lazy" width="340"
+                            height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+04%3A+Dominando+o+Mouse';" />
+                    </div>
+
+                    <!-- Card Página 5 -->
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-05-teclado-e-atalhos.webp"
+                            alt="Página 5 — Conhecendo as teclas e atalhos essenciais" loading="lazy" width="340"
+                            height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+05%3A+O+Teclado+Descomplicado';" />
+                    </div>
+
+                    <!-- Card Página 6 -->
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-06-area-de-trabalho-windows.webp"
+                            alt="Página 6 — Área de trabalho e barra de tarefas do Windows" loading="lazy" width="340"
+                            height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+06%3A+%C3%81rea+de+Trabalho';" />
+                    </div>
+
+                    <!-- Card Página 7 -->
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-07-pastas-e-arquivos.webp"
+                            alt="Página 7 — Como criar, organizar e localizar pastas e arquivos" loading="lazy"
+                            width="340" height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+07%3A+Pastas+e+Arquivos';" />
+                    </div>
+
+                    <!-- Card Página 8 -->
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-08-internet-segura-e-golpes.webp"
+                            alt="Página 8 — Internet segura, navegação no Google e prevenção contra golpes"
+                            loading="lazy" width="340" height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+08%3A+Internet+Segura';" />
+                    </div>
+
+                </div>
+
+                <!-- Grupo 2 (Duplicado para looping contínuo sem cortes) -->
+                <div class="marquee-group" aria-hidden="true">
+
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-01-o-que-e-computador.webp"
+                            alt="Página 1 — O que é um computador e suas partes" loading="lazy" width="340" height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+01%3A+O+Que+%C3%A9+um+Computador%3F';" />
+                    </div>
+
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-02-tipos-computadores.webp"
+                            alt="Página 2 — Tipos de computadores e notebooks" loading="lazy" width="340" height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+02%3A+Tipos+de+Computadores';" />
+                    </div>
+
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-03-ligar-desligar.webp"
+                            alt="Página 3 — Ligar e desligar corretamente sem erro" loading="lazy" width="340"
+                            height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+03%3A+Ligar+e+Desligar';" />
+                    </div>
+
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-04-mouse-e-cliques.webp"
+                            alt="Página 4 — Cliques, duplo clique e botão direito do mouse" loading="lazy" width="340"
+                            height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+04%3A+Dominando+o+Mouse';" />
+                    </div>
+
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-05-teclado-e-atalhos.webp"
+                            alt="Página 5 — Conhecendo as teclas e atalhos essenciais" loading="lazy" width="340"
+                            height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+05%3A+O+Teclado+Descomplicado';" />
+                    </div>
+
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-06-area-de-trabalho-windows.webp"
+                            alt="Página 6 — Área de trabalho e barra de tarefas do Windows" loading="lazy" width="340"
+                            height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+06%3A+%C3%81rea+de+Trabalho';" />
+                    </div>
+
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-07-pastas-e-arquivos.webp"
+                            alt="Página 7 — Como criar, organizar e localizar pastas e arquivos" loading="lazy"
+                            width="340" height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+07%3A+Pastas+e+Arquivos';" />
+                    </div>
+
+                    <div class="pdf-page-card border-sky-400/40">
+                        <img src="../imagem/paginas/pagina-08-internet-segura-e-golpes.webp"
+                            alt="Página 8 — Internet segura, navegação no Google e prevenção contra golpes"
+                            loading="lazy" width="340" height="480"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x560/0a2540/ffffff?text=P%C3%A1gina+08%3A+Internet+Segura';" />
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <p class="mt-8 text-center max-w-2xl mx-auto text-sm md:text-base text-slate-400 px-4 font-medium">
+            Tudo explicado com ilustrações práticas em tamanho A4 de alta resolução, perfeito para estudar na tela ou
+            imprimir.
+        </p>
+
+        <div class="text-center mt-8 px-4">
+            <a href="#oferta"
+                onclick="trackConversion('click_cta_carrossel_pdf', { location: 'carrossel_paginas_pdf' });"
+                class="btn-pulse cta-btn-gradient inline-flex items-center justify-center rounded-2xl text-white px-10 py-4 md:px-12 md:py-5 font-black text-base md:text-xl shadow-glow-cta uppercase tracking-wider hover:scale-105 transition-transform font-heading">
+                QUERO ACESSAR O MATERIAL COMPLETO →
+            </a>
+        </div>
+    </section>
+
+    <!-- 7. SEÇÃO AUTORAL: POR QUE APRENDER PARECE DIFÍCIL QUANDO NÃO HÁ DIDÁTICA ADEQUADA -->
+    <section id="dificuldades-iniciantes"
+        class="dark-navy-mesh px-4 py-16 md:py-24 text-white border-b border-slate-800">
+        <div class="max-w-5xl mx-auto">
+
+            <div class="text-center mb-14">
+                <span
+                    class="inline-block bg-sky-500/20 text-sky-300 border border-sky-400/30 font-black text-xs uppercase px-4 py-1.5 rounded-full tracking-widest mb-3">
+                    COMPREENSÃO & DIDÁTICA
+                </span>
+                <h2 class="text-3xl md:text-5xl font-black tracking-tight text-white font-heading text-balance">
+                    Aprender Computador Pode Parecer Difícil Quando Ninguém Explica do Jeito Certo
+                </h2>
+                <p class="mt-4 text-slate-300 text-base md:text-lg max-w-3xl mx-auto font-medium leading-relaxed">
+                    Muita gente quer usar o computador no dia a dia, mas trava em nomes, botões e comandos que parecem
+                    complicados demais.
+                </p>
+            </div>
+
+            <!-- Grid de 6 Obstáculos Reais com Solução no Método -->
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <!-- Card 1 -->
+                <div class="bg-white text-slate-900 rounded-3xl p-7 shadow-lg prap-card-hover flex items-start gap-4">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-sky-50 text-brandBlue flex items-center justify-center text-2xl shrink-0 border border-sky-100 shadow-sm">
+                        🖱️
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-black text-brandNavy font-heading mb-1.5">
+                            Medo de clicar errado
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed font-medium">
+                            Muitos iniciantes travam diante da tela porque têm receio de apertar algo sem querer, apagar
+                            dados ou estragar o computador.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white text-slate-900 rounded-3xl p-7 shadow-lg prap-card-hover flex items-start gap-4">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center text-2xl shrink-0 border border-amber-100 shadow-sm">
+                        🙈
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-black text-brandNavy font-heading mb-1.5">
+                            Vergonha de não saber
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed font-medium">
+                            Adultos e idosos muitas vezes têm dúvidas diárias, mas ficam desconfortáveis de pedir ajuda
+                            a parentes toda hora.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white text-slate-900 rounded-3xl p-7 shadow-lg prap-card-hover flex items-start gap-4">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-indigo-50 text-brandAccent flex items-center justify-center text-2xl shrink-0 border border-indigo-100 shadow-sm">
+                        📖
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-black text-brandNavy font-heading mb-1.5">
+                            Explicações complicadas
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed font-medium">
+                            Termos técnicos demais e aulas em ritmo acelerado fazem uma coisa simples parecer muito mais
+                            difícil do que realmente é.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white text-slate-900 rounded-3xl p-7 shadow-lg prap-card-hover flex items-start gap-4">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-slate-100 text-slate-700 flex items-center justify-center text-2xl shrink-0 border border-slate-200 shadow-sm">
+                        ⌨️
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-black text-brandNavy font-heading mb-1.5">
+                            Dificuldade com mouse e teclado
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed font-medium">
+                            Clique, duplo clique, arrastar janelas, pontuação e teclas especiais são desafios comuns que
+                            exigem orientação passo a passo.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bg-white text-slate-900 rounded-3xl p-7 shadow-lg prap-card-hover flex items-start gap-4">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-amber-50 text-amber-500 flex items-center justify-center text-2xl shrink-0 border border-amber-100 shadow-sm">
+                        📁
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-black text-brandNavy font-heading mb-1.5">
+                            Arquivos e pastas confundem
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed font-medium">
+                            Salvar, abrir, copiar, renomear e localizar documentos e fotos baixadas se torna confuso sem
+                            uma explicação visual com setas.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="bg-white text-slate-900 rounded-3xl p-7 shadow-lg prap-card-hover flex items-start gap-4">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-2xl shrink-0 border border-emerald-100 shadow-sm">
+                        ✅
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-black text-brandNavy font-heading mb-1.5">
+                            Falta de prática guiada
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed font-medium">
+                            Só ouvir explicações não basta. O iniciante precisa ver a ilustração clara, entender o
+                            motivo e praticar com calma no seu ritmo.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Botão de Ação Imediata -->
+            <div class="mt-12 text-center">
+                <a href="#oferta"
+                    onclick="trackConversion('click_cta_dificuldades', { location: 'secao_dificuldades' });"
+                    class="btn-pulse cta-btn-gradient inline-flex items-center justify-center rounded-2xl text-white px-10 py-5 font-black text-base md:text-xl shadow-glow-cta uppercase tracking-wider hover:scale-105 transition-transform font-heading">
+                    QUERO APRENDER DO JEITO CERTO E DESCOMPLICADO →
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 8. SEÇÃO: TUDO QUE VEM DENTRO DO INFORMÁTICA SEM MEDO (OS 3 PILARES METODOLÓGICOS) -->
+    <section id="conteudo" class="prap-grid-section px-4 py-16 md:py-24 border-b border-borderSubtle">
+        <div class="max-w-6xl mx-auto">
+
+            <div class="text-center mb-16">
+                <span
+                    class="bg-brandBlue/10 text-brandBlue font-black uppercase tracking-widest text-xs px-4 py-1.5 rounded-full">
+                    ESTRUTURA PEDAGÓGICA PRAP DIGITAL
+                </span>
+                <h2 class="mt-3 text-3xl md:text-5xl font-black tracking-tight text-brandNavy font-heading uppercase">
+                    TUDO QUE VEM DENTRO DO INFORMÁTICA SEM MEDO
+                </h2>
+                <p class="mt-3 text-textMuted max-w-3xl mx-auto text-base md:text-lg font-medium">
+                    Um kit completo com explicações visuais, treinos práticos e materiais de apoio para aprender ou
+                    ensinar informática básica do zero.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- Pilar 1: Explicações Visuais -->
+                <div
+                    class="bg-white rounded-3xl border-2 border-slate-200 p-7 md:p-8 flex flex-col justify-between prap-card-hover relative shadow-sm">
+                    <div>
+                        <div class="flex items-center gap-4 mb-6 pb-4 border-b border-slate-200">
+                            <div
+                                class="w-14 h-14 bg-sky-100 text-brandBlue rounded-2xl flex items-center justify-center text-3xl shrink-0 shadow-sm">
+                                📘
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-black text-brandNavy leading-tight font-heading">Explicações
+                                    Visuais</h3>
+                                <p class="text-xs text-slate-500 font-semibold mt-0.5">Tudo para entender o computador
+                                    passo a passo</p>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-3.5 text-sm font-semibold text-slate-800">
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>💻 O que é um computador e suas partes</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>🖥️ Tipos de computadores e notebooks</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>🔧 Componentes (memória, HD, processador)</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>🔌 Como ligar e desligar corretamente</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>🖱️ Como segurar e clicar com o mouse</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>🗂️ Ícones da área de trabalho e barra de tarefas</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>📁 Como criar e achar pastas e arquivos</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Pilar 2: Treinos Práticos -->
+                <div
+                    class="bg-white rounded-3xl border-2 border-slate-200 p-7 md:p-8 flex flex-col justify-between prap-card-hover relative shadow-sm">
+                    <div>
+                        <div class="flex items-center gap-4 mb-6 pb-4 border-b border-slate-200">
+                            <div
+                                class="w-14 h-14 bg-emerald-100 text-emerald-700 rounded-2xl flex items-center justify-center text-3xl shrink-0 shadow-sm">
+                                📋
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-black text-brandNavy leading-tight font-heading">Treinos
+                                    Práticos</h3>
+                                <p class="text-xs text-slate-500 font-semibold mt-0.5">Exercícios guiados para fixar o
+                                    aprendizado</p>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-3.5 text-sm font-semibold text-slate-800">
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>⌨️ Função das teclas especiais (Enter, Shift, Alt)</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>🔧 Identificação de cabos e periféricos</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>🔌 Ordem passo a passo para ligar o PC</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>📁 Treino com ícones e atalhos rápidos</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>📂 Exercícios de recortar, copiar e colar</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>📝 Atividades de fixação e revisão</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>🎯 Prática guiada sem medo de errar</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Pilar 3: Materiais de Apoio -->
+                <div
+                    class="bg-white rounded-3xl border-2 border-slate-200 p-7 md:p-8 flex flex-col justify-between prap-card-hover relative shadow-sm">
+                    <div>
+                        <div class="flex items-center gap-4 mb-6 pb-4 border-b border-slate-200">
+                            <div
+                                class="w-14 h-14 bg-indigo-100 text-brandAccent rounded-2xl flex items-center justify-center text-3xl shrink-0 shadow-sm">
+                                📥
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-black text-brandNavy leading-tight font-heading">Materiais de
+                                    Apoio</h3>
+                                <p class="text-xs text-slate-500 font-semibold mt-0.5">Recursos prontos para imprimir e
+                                    aplicar</p>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-3.5 text-sm font-semibold text-slate-800">
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>⌨️ Guia visual de atalhos do teclado</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>⌨️ Caderno de digitação do zero</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>📝 Kit de desafios práticos do dia a dia</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>📚 Plano de aulas com cronograma de 30 dias</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>🛡️ Manual Anti-Golpes para WhatsApp e Pix</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>🏅 Certificado de participação em PDF</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black shrink-0">✓</span>
+                                <span>🖨️ Todas as páginas prontas para imprimir</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-12 text-center">
+                <a href="#oferta" onclick="trackConversion('click_cta_conteudo', { location: 'pilares_conteudo' });"
+                    class="cta-btn-gradient inline-flex items-center justify-center rounded-2xl text-white px-9 py-4 font-black text-base md:text-lg shadow-glow-cta uppercase tracking-wider hover:scale-105 transition-transform">
+                    QUERO ACESSAR TODO ESSE CONTEÚDO AGORA →
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 9. SEÇÃO: COMO VOCÊ RECEBE O MATERIAL (ENTREGA DIGITAL AUTOMATIZADA) -->
+    <section id="como-recebe" class="px-4 py-16 md:py-24 bg-white border-b border-borderSubtle">
+        <div class="max-w-5xl mx-auto text-center">
+
+            <span
+                class="inline-block bg-emerald-100 text-emerald-800 border border-emerald-200 font-extrabold text-xs uppercase px-4 py-1.5 rounded-full tracking-widest mb-3">
+                ENTREGA DIGITAL 100% AUTOMATIZADA
+            </span>
+
+            <h2 class="text-3xl md:text-5xl font-black tracking-tight text-brandNavy font-heading mb-14">
+                Como Você Recebe o Material?
+            </h2>
+
+            <!-- Timeline em 3 Etapas Visuais -->
+            <div class="grid md:grid-cols-3 gap-8 relative max-w-4xl mx-auto">
+
+                <!-- Etapa 1 -->
+                <div
+                    class="bg-slate-50 rounded-3xl p-7 border border-slate-200 shadow-sm flex flex-col items-center prap-card-hover">
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-sky-50 border-2 border-brandBlue text-brandBlue flex items-center justify-center text-3xl shadow-sm mb-5 relative">
+                        <span
+                            class="absolute -top-3 -right-3 w-7 h-7 rounded-full bg-brandNavy text-white text-xs font-black flex items-center justify-center">
+                            1
+                        </span>
+                        🛒
+                    </div>
+                    <h3 class="text-xl font-black text-brandNavy mb-1.5 font-heading">Você compra</h3>
+                    <p class="text-sm text-slate-600 font-medium">Clica no botão seguro, escolhe PIX ou Cartão e
+                        confirma seu pedido.</p>
+                </div>
+
+                <!-- Etapa 2 -->
+                <div
+                    class="bg-slate-50 rounded-3xl p-7 border border-slate-200 shadow-sm flex flex-col items-center prap-card-hover">
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-emerald-50 border-2 border-emerald-600 text-emerald-600 flex items-center justify-center text-3xl shadow-sm mb-5 relative">
+                        <span
+                            class="absolute -top-3 -right-3 w-7 h-7 rounded-full bg-brandNavy text-white text-xs font-black flex items-center justify-center">
+                            2
+                        </span>
+                        💬
+                    </div>
+                    <h3 class="text-xl font-black text-brandNavy mb-1.5 font-heading">Recebe por WhatsApp e E-mail</h3>
+                    <p class="text-sm text-slate-600 font-medium">Em menos de 1 minuto, o link exclusivo para download é
+                        entregue na sua mensagem.</p>
+                </div>
+
+                <!-- Etapa 3 -->
+                <div
+                    class="bg-slate-50 rounded-3xl p-7 border border-slate-200 shadow-sm flex flex-col items-center prap-card-hover">
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-indigo-50 border-2 border-brandAccent text-brandAccent flex items-center justify-center text-3xl shadow-sm mb-5 relative">
+                        <span
+                            class="absolute -top-3 -right-3 w-7 h-7 rounded-full bg-brandNavy text-white text-xs font-black flex items-center justify-center">
+                            3
+                        </span>
+                        📥
+                    </div>
+                    <h3 class="text-xl font-black text-brandNavy mb-1.5 font-heading">Baixa e imprime</h3>
+                    <p class="text-sm text-slate-600 font-medium">Lê no celular ou computador e pode imprimir as páginas
+                        que quiser para estudar.</p>
+                </div>
+
+            </div>
+
+            <!-- Banner Inferior de Confirmação -->
+            <div
+                class="mt-12 inline-flex items-center gap-2 bg-slate-50 border border-sky-300 text-brandNavy px-6 py-3 rounded-full text-xs md:text-sm font-black shadow-sm flex-wrap justify-center">
+                <span class="text-emerald-600">⚡ Tudo digital</span>
+                <span>·</span>
+                <span>Acesso imediato e vitalício</span>
+                <span>·</span>
+                <span>Imprima quantas vezes desejar</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 10. APRESENTAÇÃO DO AUTOR: PROF. PAULO ROBERTO AGUIRRE PINHEIRO -->
+    <section id="autor" class="dark-navy-mesh px-4 py-16 md:py-24 text-white">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10">
+
+            <div class="shrink-0 relative">
+                <img src="../imagem/professor-paulo-pinheiro-informatica-para-idosos-porto-alegre.webp"
+                    alt="Professor Paulo Roberto Aguirre Pinheiro — PRAP Digital" width="280" height="280"
+                    loading="lazy"
+                    class="rounded-3xl border-4 border-sky-400/30 shadow-2xl object-cover w-60 h-60 md:w-72 md:h-72" />
+
+                <div
+                    class="absolute -bottom-3 -right-3 bg-emerald-600 text-white font-black text-xs px-3.5 py-1.5 rounded-full shadow-lg">
+                    ★ +15 Anos Ensinando na Prática
+                </div>
+            </div>
+
+            <div class="text-center md:text-left space-y-4">
+                <span class="uppercase tracking-widest text-sky-400 font-extrabold text-xs">
+                    AUTORIDADE & METODOLOGIA PRÓPRIA
+                </span>
+
+                <h2 class="text-3xl md:text-4xl font-black leading-tight text-white font-heading">
+                    Criado por quem ensina na prática
+                </h2>
+
+                <div
+                    class="inline-flex items-center gap-2 bg-white/10 px-3.5 py-1.5 rounded-lg border border-white/10 text-xs font-bold text-sky-200">
+                    <span>🎓 Prof. Paulo Roberto Aguirre Pinheiro — PRAP Digital</span>
+                </div>
+
+                <p class="text-base md:text-lg text-slate-200 leading-relaxed font-medium">
+                    Este guia didático e prático foi criado pelo <strong>Prof. Paulo Roberto Aguirre Pinheiro</strong>,
+                    da <strong>PRAP Digital</strong>.
+                </p>
+
+                <p class="text-sm md:text-base text-slate-300 leading-relaxed">
+                    Com linguagem simples e foco em situações reais do dia a dia, o material foi pensado para pessoas
+                    que desejam aprender a usar o computador sem termos complicados, sem pressa e sem medo de errar.
+                </p>
+
+                <div
+                    class="flex flex-wrap gap-2 justify-center md:justify-start text-xs font-semibold text-slate-300 pt-2">
+                    <span class="bg-slate-800/90 px-3 py-1.5 rounded-lg border border-slate-700">✓ Graduado em Sistemas
+                        para Internet (IFRS)</span>
+                    <span class="bg-slate-800/90 px-3 py-1.5 rounded-lg border border-slate-700">✓ Técnico em
+                        Informática (QI)</span>
+                    <span class="bg-slate-800/90 px-3 py-1.5 rounded-lg border border-slate-700">✓ Especialista em
+                        Hardware (Microlins)</span>
+                </div>
+
+                <div class="pt-3">
+                    <a href="https://wa.me/5551933003584?text=Ol%C3%A1%2C%20professor%20Paulo%21%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20guia%20Inform%C3%A1tica%20Sem%20Medo."
+                        target="_blank" rel="noopener noreferrer"
+                        onclick="trackConversion('click_whatsapp_author', { location: 'author_section' });"
+                        class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded-xl text-sm font-bold shadow-lg transition">
+                        <span>💬 Conversar Diretamente com o Prof. Paulo</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 11. PROVA SOCIAL: DEPOIMENTOS VERIFICADOS -->
+    <section id="depoimentos" class="px-4 py-16 md:py-20 bg-slate-50 border-b border-borderSubtle">
+        <div class="max-w-5xl mx-auto">
+
+            <div class="text-center mb-12">
+                <span class="text-brandBlue font-black uppercase tracking-widest text-xs">RESULTADOS COMPROVADOS</span>
+                <h2 class="mt-2 text-3xl md:text-4xl font-black tracking-tight text-brandNavy font-heading">
+                    O Que Dizem Quem Já Aprendeu com a Gente
+                </h2>
+                <p class="text-textMuted text-base max-w-xl mx-auto mt-2">
+                    Depoimentos reais de alunos, filhos e instrutores que transformaram o receio do computador em
+                    autonomia digital.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Depoimento 1 -->
+                <div
+                    class="bg-white p-7 rounded-3xl shadow-sm border border-slate-200 flex flex-col justify-between prap-card-hover">
+                    <div>
+                        <div class="flex items-center gap-1 text-amber-400 mb-3 text-sm">
+                            ★★★★★
+                        </div>
+                        <p class="text-slate-700 text-sm italic mb-6 leading-relaxed">
+                            "Excelente professor! Mostrou qualidades essenciais para um bom mestre nessa área:
+                            paciência, tolerância e vasto conhecimento. Estou muito satisfeita! Recomendo suas aulas!"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                        <div
+                            class="w-10 h-10 rounded-full bg-sky-100 text-brandNavy font-black flex items-center justify-center text-sm">
+                            CB
+                        </div>
+                        <div>
+                            <div class="font-extrabold text-sm text-slate-900">Conceição Soares Beltrão</div>
+                            <div class="text-[14px] text-slate-500 font-medium">Local Guide</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div
+                    class="bg-white p-7 rounded-3xl shadow-sm border border-slate-200 flex flex-col justify-between prap-card-hover">
+                    <div>
+                        <div class="flex items-center gap-1 text-amber-400 mb-3 text-sm">
+                            ★★★★★
+                        </div>
+                        <p class="text-slate-700 text-sm italic mb-6 leading-relaxed">
+                            "Profissionnal muito prestativo intende do assunto e muito educado recomendo"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                        <div
+                            class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-800 font-black flex items-center justify-center text-sm">
+                            TA
+                        </div>
+                        <div>
+                            <div class="font-extrabold text-sm text-slate-900">Tiago Alexandre Arce</div>
+                            <div class="text-[14px] text-slate-500 font-medium">12 avaliações</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div
+                    class="bg-white p-7 rounded-3xl shadow-sm border border-slate-200 flex flex-col justify-between prap-card-hover">
+                    <div>
+                        <div class="flex items-center gap-1 text-amber-400 mb-3 text-sm">
+                            ★★★★★
+                        </div>
+                        <p class="text-slate-700 text-sm italic mb-6 leading-relaxed">
+                            "Um ótimo professor tranquilo e paciencioso, daqueles que não mede esforços pra gente
+                            aprender. Ele tem muito conhecimento de informática e tem prazer em ensinar."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                        <div
+                            class="w-10 h-10 rounded-full bg-indigo-100 text-brandAccent font-black flex items-center justify-center text-sm">
+                            FB
+                        </div>
+                        <div>
+                            <div class="font-extrabold text-sm text-slate-900">Flora Bojunga Mattos</div>
+                            <div class="text-[14px] text-slate-500 font-medium">8 avaliações</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 12. OFERTA E TABELA DE PREÇOS (CRO & ALTA CONVERSÃO) -->
+    <section id="oferta" class="px-4 py-20 md:py-28 bg-white scroll-mt-10 border-b border-borderSubtle">
+        <div class="max-w-5xl mx-auto">
+
+            <div class="text-center mb-14">
+                <span
+                    class="bg-emerald-100 text-emerald-800 border border-emerald-300 font-black text-xs uppercase px-4 py-1.5 rounded-full tracking-wider">
+                    ⚡ OFERTA PROMOCIONAL EM PDF
+                </span>
+                <h2 class="mt-4 text-3xl sm:text-5xl font-black text-brandNavy font-heading leading-tight">
+                    Escolha Sua Opção e Comece Hoje
+                </h2>
+                <p class="mt-3 text-textMuted text-base md:text-lg max-w-xl mx-auto">
+                    Acesso 100% digital e imediato após o pagamento. Você recebe seu guia em PDF no seu e-mail e no seu
+                    WhatsApp.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto items-stretch">
+
+                <!-- Opção 1: Guia Essencial -->
+                <div
+                    class="border-2 border-slate-200 bg-white rounded-3xl p-8 flex flex-col justify-between relative shadow-sm prap-card-hover">
+                    <div>
+                        <h3 class="text-2xl font-black text-brandNavy text-center font-heading">Guia Essencial</h3>
+                        <p class="text-center text-xs font-bold text-slate-500 mt-1 mb-6">Apostila principal em PDF</p>
+
+                        <div class="text-center mb-6 bg-slate-50 py-4 rounded-2xl border border-slate-100">
+                            <p class="text-red-500 font-bold line-through text-xs md:text-sm">De R$ 47,90 por</p>
+                            <div class="flex items-baseline justify-center gap-1 mt-1 text-brandNavy">
+                                <span class="text-xl font-bold">R$</span>
+                                <span class="text-5xl font-black tracking-tighter font-heading">19,90</span>
+                            </div>
+                            <p class="text-[14px] text-slate-500 font-semibold mt-1">Pagamento único · Sem mensalidades
+                            </p>
+                        </div>
+
+                        <ul class="space-y-3 text-xs md:text-sm font-medium text-slate-700 mb-8">
+                            <li class="flex items-center gap-2">
+                                <span class="text-emerald-600 font-bold text-base">✓</span> Guia Informática Sem Medo
+                                (PDF)
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="text-emerald-600 font-bold text-base">✓</span> +100 páginas com ilustrações
+                                práticas
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="text-emerald-600 font-bold text-base">✓</span> Envio imediato no WhatsApp e
+                                E-mail
+                            </li>
+                            <li class="flex items-center gap-2 text-slate-400 opacity-60">
+                                <span>✕</span> Sem os 6 Super Bônus
+                            </li>
+                            <li class="flex items-center gap-2 text-slate-400 opacity-60">
+                                <span>✕</span> Sem Plano Pronto de 30 Aulas
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <!-- TODO: substituir pelo link real após cadastrar o produto na Kiwify -->
+                        <a href="https://pay.kiwify.com.br/SEU-LINK-AQUI" target="_blank" rel="noopener noreferrer"
+                            onclick="trackConversion('click_cta', { value: 19.90, currency: 'BRL', item_name: 'Guia Essencial' });"
+                            class="w-full block text-center py-4 rounded-xl font-extrabold text-sm md:text-base bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-300 transition">
+                            BAIXAR O GUIA EM PDF (R$ 19,90)
+                        </a>
+                        <p class="text-center text-[14px] text-slate-500 font-bold mt-2">Liberação Imediata via PIX</p>
+                    </div>
+                </div>
+
+                <!-- Opção 2: Kit Completo VIP -->
+                <div
+                    class="bg-gradient-to-b from-white to-emerald-50/50 border-4 border-emerald-500 rounded-3xl p-8 flex flex-col justify-between relative shadow-2xl md:-translate-y-4 prap-card-hover">
+
+                    <div
+                        class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-emerald-600 to-green-600 text-white font-black px-6 py-1 rounded-full text-xs uppercase tracking-widest whitespace-nowrap shadow-lg">
+                        ⭐ MAIS ESCOLHIDO (70% OFF)
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-black text-brandNavy text-center mt-2 font-heading">Kit Completo VIP
+                        </h3>
+                        <p class="text-center text-xs font-bold text-emerald-800 mt-1 mb-6">Guia Principal + 6 Super
+                            Bônus</p>
+
+                        <div
+                            class="text-center mb-6 bg-white py-4 rounded-2xl border-2 border-emerald-200 shadow-inner">
+                            <p class="text-red-500 font-bold line-through text-xs md:text-sm">De R$ 89,90 por apenas</p>
+                            <div class="flex items-baseline justify-center gap-1 mt-1 text-emerald-700">
+                                <span class="text-xl font-bold">R$</span>
+                                <span class="text-6xl font-black tracking-tighter font-heading">27,90</span>
+                            </div>
+                            <p class="text-[14px] text-emerald-700 font-bold mt-1">Economia de R$ 62,00 hoje!</p>
+                        </div>
+
+                        <ul class="space-y-2.5 text-xs md:text-sm font-bold text-slate-800 mb-8">
+                            <li class="flex items-center gap-2 text-slate-900">
+                                <span class="text-emerald-600 font-black text-base">✓</span> <strong>Guia Informática
+                                    Sem Medo</strong> (+500 págs)
+                            </li>
+                            <li class="flex items-center gap-2 text-emerald-800 bg-emerald-100/60 p-1.5 rounded-lg">
+                                <span>🎁</span> Plano Pronto com 30 Aulas Guiadas
+                            </li>
+                            <li class="flex items-center gap-2 text-emerald-800 bg-emerald-100/60 p-1.5 rounded-lg">
+                                <span>🎁</span> Guia Visual de Atalhos do Teclado
+                            </li>
+                            <li class="flex items-center gap-2 text-emerald-800 bg-emerald-100/60 p-1.5 rounded-lg">
+                                <span>🎁</span> Caderno Prático de Digitação
+                            </li>
+                            <li class="flex items-center gap-2 text-emerald-800 bg-emerald-100/60 p-1.5 rounded-lg">
+                                <span>🎁</span> Manual Anti-Golpes WhatsApp e Pix
+                            </li>
+                            <li class="flex items-center gap-2 text-emerald-800 bg-emerald-100/60 p-1.5 rounded-lg">
+                                <span>🎁</span> Kit de Desafios do Cotidiano
+                            </li>
+                            <li class="flex items-center gap-2 text-emerald-800 bg-emerald-100/60 p-1.5 rounded-lg">
+                                <span>🎁</span> Certificado de Conclusão Editável
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <!-- TODO: substituir pelo link real após cadastrar o produto na Kiwify -->
+                        <a href="https://pay.kiwify.com.br/SEU-LINK-AQUI" target="_blank" rel="noopener noreferrer"
+                            onclick="trackConversion('click_cta', { value: 27.90, currency: 'BRL', item_name: 'Kit Completo VIP' });"
+                            class="btn-pulse cta-btn-gradient w-full block text-center py-5 rounded-2xl font-black text-base md:text-xl text-white shadow-glow-cta uppercase tracking-wider hover:scale-[1.02] transition-transform font-heading">
+                            QUERO RECEBER O GUIA EM PDF →
+                        </a>
+
+                        <div
+                            class="flex items-center justify-center gap-3 mt-3 text-[14px] font-extrabold text-slate-600">
+                            <span>💳 PIX ou Cartão</span>
+                            <span>•</span>
+                            <span>⚡ Download em 1 minuto</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 13. SEÇÃO: GARANTIA INCONDICIONAL DE 30 DIAS (SELO VISUAL EXCLUSIVO) -->
+    <section id="garantia" class="px-4 py-20 md:py-28 bg-white border-b border-borderSubtle text-center">
+        <div class="max-w-4xl mx-auto flex flex-col items-center">
+
+            <!-- Selo 30 Dias Dourado PRAP Digital -->
+            <div class="relative mb-6">
+                <div
+                    class="w-36 h-36 md:w-40 md:h-40 rounded-full bg-gradient-to-tr from-amber-500 via-yellow-300 to-amber-400 p-1 shadow-xl flex items-center justify-center">
+                    <div
+                        class="w-full h-full rounded-full bg-brandNavy border-[3px] border-amber-300 flex flex-col items-center justify-center text-amber-400 p-2 leading-tight">
+                        <span class="text-[11px] md:text-[12px] font-black uppercase tracking-wider text-amber-300">★
+                            GARANTIA ★</span>
+                        <span
+                            class="text-5xl md:text-6xl font-black leading-none text-white my-1 font-heading">30</span>
+                        <span
+                            class="text-[12px] md:text-[14px] font-extrabold uppercase tracking-widest text-amber-300">DIAS</span>
+                        <span
+                            class="text-[9px] md:text-[10px] font-black uppercase tracking-wider text-amber-400 mt-0.5">INCONDICIONAL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Título e Texto da Garantia -->
+            <h2 class="text-3xl md:text-5xl font-black tracking-tight text-brandNavy font-heading">
+                Garantia Incondicional de 30 Dias
+            </h2>
+
+            <p class="mt-5 text-slate-600 text-base md:text-xl max-w-2xl mx-auto leading-relaxed font-medium">
+                Você pode acessar o material, avaliar com calma e ver se ele realmente ajuda a aprender ou ensinar
+                informática básica de forma mais simples, visual e prática. Se não gostar, basta solicitar o reembolso
+                dentro do prazo de garantia.
+            </p>
+
+            <!-- Botão de Ação -->
+            <div class="mt-8">
+                <a href="#oferta" onclick="trackConversion('click_cta_garantia', { location: 'garantia_30_dias' });"
+                    class="btn-pulse cta-btn-gradient inline-flex items-center justify-center rounded-2xl text-white px-10 py-5 font-black text-lg md:text-xl shadow-glow-cta uppercase tracking-wider hover:scale-105 transition-transform font-heading">
+                    QUERO COMEÇAR COM SEGURANÇA →
+                </a>
+            </div>
+
+            <!-- Badges Inferiores -->
+            <div
+                class="mt-8 flex flex-wrap items-center justify-center gap-3 text-xs md:text-sm font-bold text-slate-700">
+                <span
+                    class="inline-flex items-center gap-1.5 bg-slate-100 border border-slate-200 px-4 py-2 rounded-full shadow-sm">
+                    <span class="text-emerald-600">🛡️</span> Compra segura
+                </span>
+                <span
+                    class="inline-flex items-center gap-1.5 bg-slate-100 border border-slate-200 px-4 py-2 rounded-full shadow-sm">
+                    <span class="text-amber-500">⭐</span> Garantia de 30 dias
+                </span>
+                <span
+                    class="inline-flex items-center gap-1.5 bg-slate-100 border border-slate-200 px-4 py-2 rounded-full shadow-sm">
+                    <span class="text-sky-600">⚡</span> Acesso imediato
+                </span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 14. FAQ: PERGUNTAS FREQUENTES OTIMIZADAS PARA PESQUISA E AEO/GEO -->
+    <section id="faq" class="prap-grid-section px-4 py-16 md:py-24 border-b border-borderSubtle">
+        <div class="max-w-4xl mx-auto">
+
+            <div class="text-center mb-14">
+                <span class="text-brandBlue font-black uppercase tracking-widest text-xs">TRANSPARÊNCIA TOTAL</span>
+                <h2 class="mt-2 text-3xl md:text-5xl font-black tracking-tight text-brandNavy font-heading">
+                    Perguntas Frequentes
+                </h2>
+                <p class="mt-2 text-textMuted text-sm md:text-base">Respostas diretas sobre o funcionamento do guia
+                    digital Informática Sem Medo.</p>
+            </div>
+
+            <div class="space-y-4">
+
+                <!-- FAQ 1 -->
+                <details
+                    class="bg-white rounded-2xl border border-slate-200 shadow-sm group p-5 transition hover:border-sky-300">
+                    <summary
+                        class="flex justify-between items-center font-extrabold cursor-pointer list-none text-base md:text-lg text-slate-900 select-none">
+                        <span>O material é físico ou digital?</span>
+                        <span class="faq-chevron text-brandBlue transition-transform duration-300">▼</span>
+                    </summary>
+                    <div
+                        class="text-slate-600 text-sm md:text-base pt-3 mt-3 border-t border-slate-100 leading-relaxed font-medium">
+                        O material é 100% digital. Você recebe acesso imediato e pode baixar, imprimir e usar quando
+                        quiser no seu computador, tablet ou celular.
+                    </div>
+                </details>
+
+                <!-- FAQ 2 -->
+                <details
+                    class="bg-white rounded-2xl border border-slate-200 shadow-sm group p-5 transition hover:border-sky-300">
+                    <summary
+                        class="flex justify-between items-center font-extrabold cursor-pointer list-none text-base md:text-lg text-slate-900 select-none">
+                        <span>Esse material serve para quem está começando do zero?</span>
+                        <span class="faq-chevron text-brandBlue transition-transform duration-300">▼</span>
+                    </summary>
+                    <div
+                        class="text-slate-600 text-sm md:text-base pt-3 mt-3 border-t border-slate-100 leading-relaxed font-medium">
+                        Sim! Ele foi desenvolvido especialmente com linguagem simples, visual e passo a passo para
+                        pessoas que nunca usaram o computador ou que sentem insegurança.
+                    </div>
+                </details>
+
+                <!-- FAQ 3 -->
+                <details
+                    class="bg-white rounded-2xl border border-slate-200 shadow-sm group p-5 transition hover:border-sky-300">
+                    <summary
+                        class="flex justify-between items-center font-extrabold cursor-pointer list-none text-base md:text-lg text-slate-900 select-none">
+                        <span>Serve para adultos e idosos?</span>
+                        <span class="faq-chevron text-brandBlue transition-transform duration-300">▼</span>
+                    </summary>
+                    <div
+                        class="text-slate-600 text-sm md:text-base pt-3 mt-3 border-t border-slate-100 leading-relaxed font-medium">
+                        Sim! A didática foi adaptada com fontes grandes, explicações diretas e foco em tarefas reais do
+                        dia a dia, respeitando o ritmo de cada pessoa.
+                    </div>
+                </details>
+
+                <!-- FAQ 4 -->
+                <details
+                    class="bg-white rounded-2xl border border-slate-200 shadow-sm group p-5 transition hover:border-sky-300">
+                    <summary
+                        class="flex justify-between items-center font-extrabold cursor-pointer list-none text-base md:text-lg text-slate-900 select-none">
+                        <span>Serve para professores?</span>
+                        <span class="faq-chevron text-brandBlue transition-transform duration-300">▼</span>
+                    </summary>
+                    <div
+                        class="text-slate-600 text-sm md:text-base pt-3 mt-3 border-t border-slate-100 leading-relaxed font-medium">
+                        Sim! O Kit Completo inclui o Plano de 30 Aulas e cadernos práticos de exercícios prontos para
+                        aplicar em sala de aula ou treinamentos particulares.
+                    </div>
+                </details>
+
+                <!-- FAQ 5 -->
+                <details
+                    class="bg-white rounded-2xl border border-slate-200 shadow-sm group p-5 transition hover:border-sky-300">
+                    <summary
+                        class="flex justify-between items-center font-extrabold cursor-pointer list-none text-base md:text-lg text-slate-900 select-none">
+                        <span>É um curso em vídeo?</span>
+                        <span class="faq-chevron text-brandBlue transition-transform duration-300">▼</span>
+                    </summary>
+                    <div
+                        class="text-slate-600 text-sm md:text-base pt-3 mt-3 border-t border-slate-100 leading-relaxed font-medium">
+                        É um conjunto didático completo em formato PDF de alta qualidade para leitura e impressão, o que
+                        permite consultar sempre que precisar sem gastar dados de internet.
+                    </div>
+                </details>
+
+                <!-- FAQ 6 -->
+                <details
+                    class="bg-white rounded-2xl border border-slate-200 shadow-sm group p-5 transition hover:border-sky-300">
+                    <summary
+                        class="flex justify-between items-center font-extrabold cursor-pointer list-none text-base md:text-lg text-slate-900 select-none">
+                        <span>Preciso saber informática para usar?</span>
+                        <span class="faq-chevron text-brandBlue transition-transform duration-300">▼</span>
+                    </summary>
+                    <div
+                        class="text-slate-600 text-sm md:text-base pt-3 mt-3 border-t border-slate-100 leading-relaxed font-medium">
+                        Não! O material começa do absoluto zero, ensinando até a segurar o mouse e ligar o computador
+                        com total calma.
+                    </div>
+                </details>
+
+                <!-- FAQ 7 -->
+                <details
+                    class="bg-white rounded-2xl border border-slate-200 shadow-sm group p-5 transition hover:border-sky-300">
+                    <summary
+                        class="flex justify-between items-center font-extrabold cursor-pointer list-none text-base md:text-lg text-slate-900 select-none">
+                        <span>Posso imprimir?</span>
+                        <span class="faq-chevron text-brandBlue transition-transform duration-300">▼</span>
+                    </summary>
+                    <div
+                        class="text-slate-600 text-sm md:text-base pt-3 mt-3 border-t border-slate-100 leading-relaxed font-medium">
+                        Sim! Todas as páginas foram formatadas em tamanho A4 de alta definição, perfeitas para impressão
+                        doméstica ou em gráfica.
+                    </div>
+                </details>
+
+                <!-- FAQ 8 -->
+                <details
+                    class="bg-white rounded-2xl border border-slate-200 shadow-sm group p-5 transition hover:border-sky-300">
+                    <summary
+                        class="flex justify-between items-center font-extrabold cursor-pointer list-none text-base md:text-lg text-slate-900 select-none">
+                        <span>O que vou aprender?</span>
+                        <span class="faq-chevron text-brandBlue transition-transform duration-300">▼</span>
+                    </summary>
+                    <div
+                        class="text-slate-600 text-sm md:text-base pt-3 mt-3 border-t border-slate-100 leading-relaxed font-medium">
+                        Você vai dominar o mouse, teclado, Windows, pastas, arquivos, navegação no Google, envio de
+                        e-mails, WhatsApp no computador e dicas de segurança digital contra fraudes.
+                    </div>
+                </details>
+
+                <!-- FAQ 9 -->
+                <details
+                    class="bg-white rounded-2xl border border-slate-200 shadow-sm group p-5 transition hover:border-sky-300">
+                    <summary
+                        class="flex justify-between items-center font-extrabold cursor-pointer list-none text-base md:text-lg text-slate-900 select-none">
+                        <span>Recebo os bônus também?</span>
+                        <span class="faq-chevron text-brandBlue transition-transform duration-300">▼</span>
+                    </summary>
+                    <div
+                        class="text-slate-600 text-sm md:text-base pt-3 mt-3 border-t border-slate-100 leading-relaxed font-medium">
+                        Sim! Ao escolher a opção Kit Completo VIP, todos os 6 super bônus são liberados imediatamente
+                        junto com o seu guia.
+                    </div>
+                </details>
+
+                <!-- FAQ 10 -->
+                <details
+                    class="bg-white rounded-2xl border border-slate-200 shadow-sm group p-5 transition hover:border-sky-300">
+                    <summary
+                        class="flex justify-between items-center font-extrabold cursor-pointer list-none text-base md:text-lg text-slate-900 select-none">
+                        <span>Tem garantia?</span>
+                        <span class="faq-chevron text-brandBlue transition-transform duration-300">▼</span>
+                    </summary>
+                    <div
+                        class="text-slate-600 text-sm md:text-base pt-3 mt-3 border-t border-slate-100 leading-relaxed font-medium">
+                        Sim! Oferecemos 30 dias de Garantia Incondicional. Se não gostar por qualquer razão, devolvemos
+                        100% do seu dinheiro sem perguntas.
+                    </div>
+                </details>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 15. RODAPÉ INSTITUCIONAL PRAP DIGITAL -->
+    <footer class="bg-brandDark text-slate-400 pt-16 pb-12 px-4 border-t border-slate-800 text-sm">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-8 mb-12">
+
+            <div class="md:col-span-2 space-y-4">
+                <div class="flex items-center gap-2.5">
+                    <div class="bg-brandBlue text-white p-1.5 rounded-lg flex-shrink-0">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                        </svg>
+                    </div>
+                    <span class="text-xl font-black text-white uppercase tracking-tight font-heading">
+                        PRAP<span class="text-sky-400">Digital</span>
+                    </span>
+                </div>
+
+                <p class="text-xs text-slate-300 font-bold leading-relaxed max-w-md">
+                    Informática Sem Medo é um guia didático digital criado por Prof. Paulo Roberto Aguirre Pinheiro —
+                    PRAP Digital.
+                </p>
+                <p class="text-xs text-slate-500">
+                    Porto Alegre, RS — Brasil (CEP: 90850-280) · Contato: (51) 93300-3584
+                </p>
+            </div>
+
+            <div>
+                <h4 class="text-white font-extrabold text-xs uppercase tracking-wider mb-4 font-heading">Páginas &
+                    Soluções</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="https://prapdigital.com.br/" class="hover:text-white transition">Página Principal
+                            (Home)</a></li>
+                    <li><a href="https://prapdigital.com.br/informatica-sem-medo/"
+                            class="hover:text-white transition">Informática Sem Medo</a></li>
+                    <li><a href="https://prapdigital.com.br/informatica-para-idosos/"
+                            class="hover:text-white transition">Aulas de Informática para Idosos</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-extrabold text-xs uppercase tracking-wider mb-4 font-heading">Atendimento &
+                    Suporte</h4>
+                <ul class="space-y-2 text-xs">
+                    <li class="flex items-center gap-1.5 text-slate-300">
+                        <span>📞 WhatsApp:</span> <a href="https://wa.me/5551933003584"
+                            class="hover:text-emerald-400 font-bold">(51) 93300-3584</a>
+                    </li>
+                    <li class="flex items-center gap-1.5 text-slate-300">
+                        <span>✉️ E-mail:</span> <a href="mailto:contato@prapdigital.com.br"
+                            class="hover:text-sky-400">contato@prapdigital.com.br</a>
+                    </li>
+                    <li class="text-[14px] text-slate-500 pt-1">
+                        Atendimento de Segunda a Sábado das 09h às 18h.
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="max-w-6xl mx-auto pt-8 border-t border-slate-800/80 text-center text-xs text-slate-500 space-y-2">
+            <p>
+                Copyright © 2026 PRAP Digital - Paulo Roberto Aguirre Pinheiro (CPF: 004.902.440-09). Todos os direitos
+                reservados.
+            </p>
+            <!-- Políticas e Termos (Expansível) -->
+            <div class="max-w-4xl mx-auto mt-6 mb-8 text-left space-y-3">
+
+                <details class="bg-brandDark rounded-xl border border-slate-800 group">
+                    <summary
+                        class="p-4 font-bold text-slate-300 cursor-pointer list-none flex justify-between items-center hover:bg-slate-800/80 transition rounded-xl">
+                        Termos e Condições de Uso
+                        <svg class="w-4 h-4 text-slate-500 group-open:rotate-180 transition-transform" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </summary>
+                    <div class="p-4 pt-4 text-slate-400 space-y-4 text-xs border-t border-slate-800 mt-1">
+                        <p class="text-[13px] font-semibold text-slate-300">Última atualização: Agosto de 2026</p>
+                        <p>Bem-vindo(a) à PRAP Digital. Ao acessar nosso site (prapdigital.com.br) ou adquirir nossos
+                            infoprodutos e aulas, você concorda integralmente com os Termos e Condições de Uso descritos
+                            abaixo. Leia-os com atenção.</p>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">1. Identificação da Empresa</h4>
+                        <p>A PRAP Digital é representada por Paulo Roberto Aguirre Pinheiro (CPF 004.902.440-09), com
+                            domicílio fiscal em Porto Alegre, RS, Brasil. Nosso objetivo é fornecer educação tecnológica
+                            e materiais didáticos de alta qualidade para o público em geral.</p>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">2. Natureza dos Produtos e Serviços</h4>
+                        <p>Comercializamos materiais educativos digitais (como o guia em PDF "Informática Sem Medo") e
+                            serviços de tutoria em informática.</p>
+                        <ul class="list-disc pl-4 space-y-1">
+                            <li><strong>Produtos Digitais:</strong> Não enviamos livros físicos ou CDs/Pendrives pelos
+                                Correios. O acesso ao material é 100% digital e liberado via link para download no
+                                e-mail ou WhatsApp após a confirmação do pagamento.</li>
+                            <li><strong>Resultados e Aprendizado:</strong> A PRAP Digital fornece métodos didáticos
+                                estruturados, porém o ritmo e os resultados do aprendizado dependem da dedicação, da
+                                prática e do comprometimento exclusivo do aluno. Não garantimos resultados absolutos em
+                                tempo recorde sem a execução prática das instruções.</li>
+                        </ul>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">3. Política de Garantia e Reembolso</h4>
+                        <p>Cumprindo o Código de Defesa do Consumidor (CDC) e indo além, oferecemos uma Garantia
+                            Incondicional de 30 Dias para o produto "Informática Sem Medo".</p>
+                        <ul class="list-disc pl-4 space-y-1">
+                            <li>O prazo de 30 (trinta) dias corridos conta a partir da data de confirmação do pagamento.
+                            </li>
+                            <li>Se o conteúdo não atender às suas expectativas dentro desse prazo, você poderá solicitar
+                                o reembolso integral enviando uma mensagem para o nosso WhatsApp de suporte ou e-mail.
+                            </li>
+                            <li>O valor será devolvido na íntegra através da mesma plataforma utilizada para a compra
+                                (ex: estorno via Pix ou no cartão de crédito), sem burocracia.</li>
+                        </ul>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">4. Propriedade Intelectual e Direitos
+                            Autorais</h4>
+                        <p>Todo o conteúdo disponível no site (textos, métodos, imagens, vídeos) e nos materiais
+                            digitais comercializados (apostilas em PDF, guias, planilhas) são de propriedade exclusiva
+                            da PRAP Digital e estão protegidos pelas leis de direitos autorais (Lei nº 9.610/1998).</p>
+                        <ul class="list-disc pl-4 space-y-1">
+                            <li>É estritamente proibido revender, distribuir gratuitamente, copiar, plagiar ou
+                                disponibilizar os materiais adquiridos em sites de pirataria, grupos abertos ou rateios.
+                            </li>
+                            <li>Professores e instrutores que adquirem o material podem utilizá-lo para aplicar aulas
+                                aos seus próprios alunos, mas não podem repassar o material digital como autoria própria
+                                ou vendê-lo na internet.</li>
+                            <li>O descumprimento destas regras acarretará bloqueio imediato do acesso e medidas
+                                judiciais cabíveis (cobrança de perdas e danos por pirataria).</li>
+                        </ul>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">5. Formas de Pagamento e Acesso</h4>
+                        <p>Os pagamentos são processados por plataformas parceiras seguras. A liberação via Pix ou
+                            Cartão de Crédito é quase imediata. Compras no boleto bancário podem levar até 3 dias úteis
+                            para compensar. Não temos acesso direto aos dados do seu cartão.</p>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">6. Modificações dos Termos</h4>
+                        <p>A PRAP Digital reserva-se o direito de alterar estes Termos de Uso e ofertas a qualquer
+                            momento, sem aviso prévio. As compras já realizadas seguirão os termos vigentes no ato da
+                            compra.</p>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">7. Contato e Suporte</h4>
+                        <p>Para dúvidas, problemas de acesso, agendamento de aulas ou solicitações de garantia, nosso
+                            canal oficial é:</p>
+                        <ul class="list-disc pl-4 space-y-1">
+                            <li>WhatsApp Oficial: (51) 93300-3584</li>
+                            <li>E-mail: contato@prapdigital.com.br</li>
+                            <li>Atendimento: Segunda a Sábado das 09h às 18h.</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details class="bg-brandDark rounded-xl border border-slate-800 group">
+                    <summary
+                        class="p-4 font-bold text-slate-300 cursor-pointer list-none flex justify-between items-center hover:bg-slate-800/80 transition rounded-xl">
+                        Política de Privacidade
+                        <svg class="w-4 h-4 text-slate-500 group-open:rotate-180 transition-transform" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </summary>
+                    <div class="p-4 pt-4 text-slate-400 space-y-4 text-xs border-t border-slate-800 mt-1">
+                        <p class="text-[13px] font-semibold text-slate-300">Última atualização: Agosto de 2026</p>
+                        <p>A PRAP Digital (Paulo Roberto Aguirre Pinheiro, doravante "nós", "nosso" ou "PRAP Digital"),
+                            operando sob o CPF 004.902.440-09, tem o compromisso de proteger a privacidade e a segurança
+                            dos dados pessoais de seus usuários, alunos e clientes. Esta Política de Privacidade
+                            descreve como coletamos, usamos, protegemos e compartilhamos as suas informações ao acessar
+                            o nosso site (prapdigital.com.br) e adquirir nossos infoprodutos (como o guia Informática
+                            Sem Medo).</p>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">1. Informações que Coletamos</h4>
+                        <p>Coletamos as informações necessárias para fornecer nossos serviços digitais de forma
+                            eficiente:</p>
+                        <ul class="list-disc pl-4 space-y-1">
+                            <li><strong>Dados de Contato e Cadastro:</strong> Nome, e-mail e número de
+                                telefone/WhatsApp, coletados quando você entra em contato ou realiza uma compra.</li>
+                            <li><strong>Dados de Pagamento:</strong> Processados por plataformas parceiras seguras (como
+                                gateways de pagamento). Nós não armazenamos números de cartão de crédito em nossos
+                                servidores. Apenas recebemos a confirmação do status da transação.</li>
+                            <li><strong>Dados de Navegação:</strong> Endereço IP, tipo de navegador, tempo de visita e
+                                páginas acessadas, coletados automaticamente via cookies e ferramentas de analytics
+                                (como Google Analytics e Microsoft Clarity) para melhorar a experiência do usuário.</li>
+                        </ul>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">2. Uso das Informações</h4>
+                        <p>Seus dados são utilizados exclusivamente para as seguintes finalidades:</p>
+                        <ul class="list-disc pl-4 space-y-1">
+                            <li>Processar sua compra e entregar o acesso ao material digital (PDFs, guias, aulas).</li>
+                            <li>Fornecer suporte técnico, responder a dúvidas via WhatsApp ou e-mail.</li>
+                            <li>Processar solicitações de reembolso dentro da garantia estabelecida (30 dias).</li>
+                            <li>Enviar comunicações sobre atualizações do material, dicas de informática e eventuais
+                                ofertas relevantes (você pode solicitar o cancelamento dessas mensagens a qualquer
+                                momento).</li>
+                            <li>Cumprir obrigações legais e fiscais vigentes no Brasil.</li>
+                        </ul>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">3. Compartilhamento de Dados</h4>
+                        <p>Garantimos que seus dados jamais serão vendidos a terceiros. As informações podem ser
+                            compartilhadas apenas com:</p>
+                        <ul class="list-disc pl-4 space-y-1">
+                            <li><strong>Plataformas de Pagamento:</strong> Exclusivamente para o processamento
+                                financeiro e prevenção a fraudes.</li>
+                            <li><strong>Serviços de Hospedagem e Analytics:</strong> Para manter o site no ar e analisar
+                                o tráfego de forma anonimizada.</li>
+                            <li><strong>Autoridades Legais:</strong> Quando exigido por lei ou ordem judicial para
+                                proteger nossos direitos ou de terceiros.</li>
+                        </ul>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">4. Uso de Cookies e Tecnologias de
+                            Rastreamento</h4>
+                        <p>Utilizamos cookies estritamente necessários para o funcionamento do site e cookies analíticos
+                            para entender como os visitantes interagem com nossas páginas (ex: ferramentas de mapa de
+                            calor e conversão). Ao continuar a navegação, você concorda com o uso dessas tecnologias.
+                            Caso deseje, você pode desativar os cookies diretamente nas configurações do seu navegador.
+                        </p>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">5. Segurança dos Dados</h4>
+                        <p>Implementamos rigorosas medidas técnicas e organizacionais para proteger suas informações
+                            pessoais contra acessos não autorizados, perdas, destruição ou alteração. Nosso site opera
+                            em ambiente seguro (HTTPS) e conta com Políticas de Segurança de Conteúdo (CSP) rígidas para
+                            blindar a navegação.</p>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">6. Seus Direitos (LGPD)</h4>
+                        <p>De acordo com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você tem o direito de
+                            solicitar a qualquer momento:</p>
+                        <ul class="list-disc pl-4 space-y-1">
+                            <li>A confirmação da existência de tratamento dos seus dados.</li>
+                            <li>O acesso, correção ou atualização de informações incompletas ou desatualizadas.</li>
+                            <li>A exclusão ou bloqueio dos seus dados pessoais dos nossos sistemas (exceto quando a
+                                retenção for necessária para cumprimento de obrigação legal).</li>
+                        </ul>
+
+                        <h4 class="text-slate-200 font-bold text-[14px] mt-4">7. Contato e Encarregado de Dados</h4>
+                        <p>Para exercer seus direitos ou tirar dúvidas sobre esta Política de Privacidade, entre em
+                            contato conosco:</p>
+                        <ul class="list-disc pl-4 space-y-1">
+                            <li>E-mail: contato@prapdigital.com.br</li>
+                            <li>WhatsApp: (51) 93300-3584</li>
+                            <li>Responsável: Paulo Roberto Aguirre Pinheiro</li>
+                        </ul>
+                    </div>
+                </details>
+
+            </div>
+            <p class="text-[14px] text-slate-600">
+                Este produto é um material digital educativo em formato PDF. Não enviamos livro físico pelos Correios. O
+                download é liberado imediatamente via WhatsApp e E-mail.
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- 17. BARRA DE COMPRA FLUTUANTE MOBILE (STICKY DOCK) -->
+    <div id="mobile-dock"
+        class="mobile-dock md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 p-3 shadow-[0_-8px_20px_rgba(0,0,0,0.1)] flex items-center justify-between gap-3">
+        <div>
+            <div class="text-[14px] font-bold text-red-500 line-through leading-none">De R$ 89,90</div>
+            <div class="text-lg font-black text-emerald-700 leading-tight font-heading">R$ 27,90</div>
+        </div>
+        <a href="#oferta" onclick="trackConversion('click_mobile_sticky_cta', { location: 'mobile_bar' });"
+            class="cta-btn-gradient text-white px-5 py-2.5 rounded-xl font-black text-xs uppercase tracking-wider shadow-md">
+            BAIXAR O GUIA VIP →
+        </a>
+    </div>
+
+    <!-- Script de Interação e Scroll Triggers -->
+    <script>
+        const mobileDock = document.getElementById('mobile-dock');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 350) {
+                mobileDock.classList.add('active');
+            } else {
+                mobileDock.classList.remove('active');
+            }
+        }, { passive: true });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <url>
+    <loc>https://prapdigital.com.br/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://prapdigital.com.br/imagem/aulas-particulares-informatica-ia-porto-alegre.webp</image:loc>
+      <image:title>Aulas de Informática e IA PRAP Digital</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://prapdigital.com.br/imagem/Alunos-aprendendo-com-prap-digital-porto-alegre.webp</image:loc>
+      <image:title>Professor particular de informática ensinando aluno</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://prapdigital.com.br/imagem/professor-paulo-pinheiro-informatica-prap-digital-porto-alegre.webp</image:loc>
+      <image:title>Professor Paulo Roberto Pinheiro - Especialista em TI</image:title>
+    </image:image>
+  </url>
+
+  <!-- Página Satélite: Informática Sem Medo - Guia de Informática Básica para Iniciantes -->
+  <url>
+    <loc>https://prapdigital.com.br/informatica-sem-medo/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+        <image:loc>https://prapdigital.com.br/imagem/professor-paulo-pinheiro-informatica-para-idosos-porto-alegre.webp</image:loc>
+        <image:title>Professor Paulo Roberto Aguirre Pinheiro - Autor do Informática Sem Medo PRAP Digital</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://prapdigital.com.br/imagem/idoso-usando-celular-porto-alegre.webp</image:loc>
+        <image:title>Informática Sem Medo - Guia prático de informática básica para iniciantes em PDF</image:title>
+    </image:image>
+  </url>
+
+  <!-- Página Satélite: Aulas de Informática e Celular para Idosos -->
+  <url>
+    <loc>https://prapdigital.com.br/informatica-para-idosos/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+        <image:loc>https://prapdigital.com.br/imagem/idoso-usando-celular-porto-alegre.webp</image:loc>
+        <image:title>Aulas de celular e computador para idosos em Porto Alegre</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://prapdigital.com.br/imagem/professor-paulo-pinheiro-informatica-para-idosos-porto-alegre.webp</image:loc>
+        <image:title>Professor Paulo Roberto Pinheiro especialista em ensino para terceira idade</image:title>
+    </image:image>
+  </url>
+
+</urlset>
