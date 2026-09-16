@@ -535,3 +535,45 @@ a:hover, a:focus {
         gap: var(--spacing-md);
     }
 }
+
+/* CTA Marketing Box */
+.cta-banner {
+    background-color: var(--color-background);
+    border: 2px solid var(--color-primary);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-lg);
+    margin: var(--spacing-xl) 0;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(15, 82, 186, 0.1);
+}
+
+.cta-banner h3 {
+    color: var(--color-primary);
+    font-size: var(--text-xl);
+    margin-bottom: var(--spacing-xs);
+}
+
+.cta-banner p {
+    color: var(--color-text-main);
+    font-size: var(--text-base-size);
+    margin-bottom: var(--spacing-md);
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 1rem 2rem;
+    font-size: var(--text-large);
+    font-weight: 800;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.cta-button:hover, .cta-button:focus {
+    background-color: #006400; /* Darker green */
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
